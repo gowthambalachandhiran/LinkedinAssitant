@@ -1,0 +1,25 @@
+tweettext,author,date
+"2 Sora 2 updates:
+
+- Storyboards are now available on web to Pro users
+- All users can now generate videos up to 15 seconds on app and web, Pro users up to 25 seconds on web",OpenAI,16-10-2025
+"We released our report on SynthID-image, outlining what it takes to watermark over ten billion images generated with 
+@GoogleDeepMind
+ AI models and making this technology available to external partners. I really enjoyed writing this report – a thread:",GoogleDeepMind,2025-10-15T10:08:24.000Z
+"Meet Veo 3.1 ??
+
+With Veo 3.1, you can generate videos with richer audio, better narrative control, and enhanced realism. This new update also comes with a suite of additional features built for creative control.
+
+Including the ability to:
+— Extend your videos to make them longer (with audio)
+— Set the first and last frame of your video to control your output (with audio)
+— Upload multiple ingredient images to craft your scene (with audio)
+— Add or remove objects directly in your video
+
+These features are available in 
+@FlowbyGoogle
+, the Gemini API, and 
+@GoogleCloud
+ Vertex AI. Veo 3.1 is also available in the 
+@GeminiApp
+. We’re so excited to see what you create!",GoogleAi,2025-10-18T10:08:24.000Z

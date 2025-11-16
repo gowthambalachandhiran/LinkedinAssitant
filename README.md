@@ -1,1 +1,1 @@
-# LinkedinAssitant
+# LinkedInAssistant

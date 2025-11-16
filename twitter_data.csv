@@ -1,0 +1,32 @@
+tweettext,author,date
+"Autoregressive language models learn to compress data by mapping sequences to high-dimensional representations and decoding one token at a time.
+
+The quality of compression, as defined by the ability to predict the next token given a prompt, progressively improves (as measured by negative log-likelihood) during training. We find that complexity of the representation manifold however, evolves non-mononitically in distinct phases across pretraining and post-training.
+
+Excited to share our #NeurIPS2025 ?? led by our amazing undergrad 
+@melody_zixuan
+  where we study the complexity dynamics of LLMs, and how distinct phases relate to specific behaviors.  ????",BerkleyAI,Oct 3rd 2025
+"We've raised $100M from Kleiner Perkins, Index Ventures, Lightspeed, and NVIDIA.
+
+Today we're introducing Sonic-3 - the state-of-the-art model for realtime conversation.
+
+What makes Sonic-3 great:
+- Breakthrough naturalness - laughter and full emotional range
+- Lightning fast - 90ms model latency, 190ms end-to-end (fastest on market)
+- Supports 42 languages
+
+The difference: We build on State Space Models (SSMs) instead of Transformers.
+
+Transformers (what everyone else uses) are like rewatching the entire conversation from the start before saying each new word. Every word requires reviewing everything.
+
+SSMs (what Sonic-3 uses) are like humans, remembering the topic and vibe of the conversation. Enough context to speak naturally without replaying everything.
+
+My co-founder, Albert, and I pioneered the SSM paradigm at Stanford AI Lab (S4, Mamba), and it is now being adopted industry-wide.
+
+Thousands of businesses like ServiceNow, Cresta, and Decagon power millions of conversations monthly with Sonic.
+
+Try for free or book a demo here: https://cartesia.ai/sonic.
+
+If you're qualified and we can't make your voice AI better than what you're using now, I'll donate $5K to your chosen charity.
+
+As part of this launch, we cooked something super cool for you ????",StanfordAI,Oct 28th 2025

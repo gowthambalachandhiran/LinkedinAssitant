@@ -1,0 +1,659 @@
+subreddit,title,author,upvotes,comments,created_utc,url,content
+MachineLearning,[R] PhD students: Do you use LLMs to help?,nenderflow,0,3,2025-11-02 14:24:14,https://www.reddit.com/r/MachineLearning/comments/1omikqi/r_phd_students_do_you_use_llms_to_help/,"I regularly use Chat to help understand some aspects of paper better, to write some bash/scripts, etc. Is that frowned upon? Should I be writing everything from scratch? Especially since the landscape is publish or peril, what do you think of accelerating the experimental portion of the research to publish faster?"
+MachineLearning,[R] TempoPFN: Synthetic Pretraining of Linear RNNs for Zero-Shot Timeseries Forecasting,iltruma,11,1,2025-11-02 10:17:51,https://www.reddit.com/r/MachineLearning/comments/1omdrng/r_tempopfn_synthetic_pretraining_of_linear_rnns/,"https://preview.redd.it/h8ax4n36ktyf1.png?width=1080&format=png&auto=webp&s=e1c08e0c0415264d29d72b495a725f857a5fb56e
+
+*Authors:* Vladyslav Moroshan, Julien Siems, Arber Zela, Timur Carstensen, Frank Hutter
+
+TempoPFN is a univariate time series foundation model based on linear RNNs that is pre-trained exclusively on synthetic data and achieves competitive zero-shot forecasting performance while maintaining efficient, fully parallelizable training and inference. The model uses a GatedDeltaProduct architecture with state-weaving and outperforms all existing synthetic-only approaches on the Gift-Eval benchmark, with open-sourced code and data pipeline for reproducibility  
+  
+*Github:* [https://github.com/automl/TempoPFN](https://github.com/automl/TempoPFN)
+
+*Paper:* [https://arxiv.org/abs/2510.25502](https://arxiv.org/abs/2510.25502)"
+MachineLearning,[D] [R] Error-Driven Adaptive Routing: Learning Compute Allocation from Frozen Representations,MikeBeezzz,0,1,2025-11-02 07:21:48,https://medium.com/@mbonsign/error-driven-adaptive-routing-learning-compute-allocation-from-frozen-representations-037bbb6196e8,
+MachineLearning,[P] Made my first AI Agent Researcher with Python + Langchain + Ollama,FriendshipCreepy8045,0,1,2025-11-02 06:29:13,https://www.reddit.com/r/MachineLearning/comments/1omaar8/p_made_my_first_ai_agent_researcher_with_python/,"Hey everyone!
+
+So I always wondered how AI agent worked and as a Frontend Engineer, I use copilot agent everyday for personal professional projects and always wondered ""how the hack it decides what files to read, write, what cmd commands to execute, how the hack did it called my terminal and ran (npm run build)""
+
+And in a week i can't complitely learn about how transformers work or embeddings algorithim store and retrive data but i can learn something high level, to code something high level to post something low level 🥲
+
+So I built a small **local research agent** with a few simple tools:  
+it runs entirely offline, uses a local LLM through **Ollama**, connects tools via **LangChain**, and stores memory using **ChromaDB**.
+
+Basically, it’s my attempt to understand how an AI agent *thinks, reasons, and remembers.* but built from scratch in my own style.  
+Do check and let me know what you guys thing, how i can improve this agent in terms of prompt | code structure or anything :)
+
+GitHub: [https://github.com/vedas-dixit/LocalAgent](https://github.com/vedas-dixit/LocalAgent)
+
+Documentation: [https://github.com/vedas-dixit/LocalAgent/blob/main/documentation.md](https://github.com/vedas-dixit/LocalAgent/blob/main/documentation.md)"
+MachineLearning,[D] Self-Promotion Thread,AutoModerator,2,3,2025-11-02 02:15:35,https://www.reddit.com/r/MachineLearning/comments/1om5smw/d_selfpromotion_thread/,"Please post your personal projects, startups, product placements, collaboration needs, blogs etc.
+
+Please mention the payment and pricing requirements for products and services.
+
+Please do not post link shorteners, link aggregator websites , or auto-subscribe links.
+
+\--
+
+Any abuse of trust will lead to bans.
+
+Encourage others who create new posts for questions to post here instead!
+
+Thread will stay alive until next one so keep posting after the date in the title.
+
+\--
+
+Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to promote their work by not spamming the main threads."
+MachineLearning,[R] Should I still write up my clinical ML project if the results aren’t “amazing”? Metrics in body!!,Capital-Towel-5854,7,18,2025-11-02 00:55:34,https://www.reddit.com/r/MachineLearning/comments/1om46fv/r_should_i_still_write_up_my_clinical_ml_project/,"Hi all,  
+I’m a PhD hopeful (apps due soon), and I’m spiraling over whether my clinical ML project is worth writing up. I’ve done everything I know - tuning, imputation, benchmarks - but results feel ""good but not groundbreaking"".
+
+I am confused/worried if I should even continue writing the paper or what to do. I would love your take on what I could do next.
+
+The dataset had a ton of missing values, so I handled them like this:
+
+* 0–5% missing → median imputation
+* 5–30% → MICE
+* 30–70% → MICE + missing indicator columns
+* 70% → dropped the feature
+
+Models tried: LR, L2 LR, XGBoost, LightGBM, simple ensemble
+
+Tuning: Grid + 5-fold CV (time-aware splits, no leakage)  
+Yet the best results I have are like:
+
+* **AUROC**: **0.82**
+* **AUPRC**: **0.36** (baseline = 0.12 → \~3× gain)
+* **Sensitivity/Recall**: **0.78**
+* **Precision**: **0.29**
+* **F1**: **0.42**
+
+Would you still write it up? Or should I pivot, improve the approach, or just cut losses and move on? Would love any feedback, suggestions, roast, anything.
+
+Also, I just want to know: **Is this even PhD-app-worthy?** If I am targeting the top 50 US programs in AI+healthcare? Thank you!!"
+MachineLearning,[D] Classroom AI,slrg1968,0,1,2025-11-02 00:04:35,https://www.reddit.com/r/MachineLearning/comments/1om34c3/d_classroom_ai/,"Hey folks, as a former high school science teacher, I am quite interested in how AI could be integrated in to my classroom if I was still teaching.  I see several use cases for it -- as a teacher, I would like to be able to have it assist with creating lesson plans, the ever famous ""terminal objectives in the cognitive domain"", power point slide decks for use in teaching, Questions, study sheets, quizzes and tests.  I would also like it to be able to let the students use it (with suitable prompting ""help guide students to the answer, DO NOT give them answers"" etc) for study, and test prep etc.
+
+for this use case, is it better to assemble a RAG type system, or assuming I have the correct hardware, to train a model specific to the class?  WHY?  -- this is a learning exercise for me -- so the why is really really important part.
+
+Thanks  
+TIM"
+singularity,Axios: AI non profit 'dark money' to be used to influence AI regs and midterms,kaggleqrdl,2,4,2025-11-02 14:18:30,https://www.reddit.com/r/singularity/comments/1omifnk/axios_ai_non_profit_dark_money_to_be_used_to/,"**Open AI just announced a non profit grant of 25B**
+
+[https://openai.com/index/built-to-benefit-everyone/](https://openai.com/index/built-to-benefit-everyone/)
+
+[https://www.nbcnews.com/politics/trump-administration/white-house-irked-leading-future-new-100m-ai-super-pac-rcna239392](https://www.nbcnews.com/politics/trump-administration/white-house-irked-leading-future-new-100m-ai-super-pac-rcna239392)
+
+>Some of the initial Leading the Future donors apparently now under the White House's watchful eye include private equity giant Andreesseen Horowitz, whose billionaire co-founder, Marc Andreesseen, is a close Trump adviser; **Greg Brockman, co-founder of OpenAI;** Joe Lonsdale, co-founder of Palantir and a vocal Trump supporter; and Ron Conway, founder of SV Angel and a 2024 supporter of Democratic presidential nominee Kamala Harris.
+
+[https://www.axios.com/2025/10/29/ai-new-advocacy-group-dark-money](https://www.axios.com/2025/10/29/ai-new-advocacy-group-dark-money)
+
+The [AI industry](https://www.axios.com/technology/automation-and-ai) is preparing to launch a multimillion-dollar ad campaign through a new policy advocacy group, Axios has learned.
+
+**Why it matters:** The new group — Build American AI — is the latest sign that the flush-with-cash AI industry is preparing to spend massive sums promoting its agenda, namely its push for federal, not state, regulation.
+
+**Zoom out:** Build American AI is an offshoot of Leading the Future, a pro-AI super PAC.
+
+* While Leading the Future aims to invest tens of millions of dollars in 2026 midterm races, Build American AI will focus on issue-oriented ads promoting the industry's legislative agenda in Congress and the states.
+* Unlike the Leading the Future super PAC, Build American AI is a nonprofit group — meaning it's a ""dark money"" organization that's not required to disclose its donors.
+* Leading the Future has announced that it's raised $100 million, a figure that will make it a major player in the midterms.
+
+**Zoom in:** Organizers say Build American AI will emphasize the industry's push for AI to be regulated on a federal level. The industry doesn't want different states to have different policies for regulation, a position that [mirrors](https://www.axios.com/2025/07/24/trumps-ai-action-plan-dei) President Trump's.
+
+* The new group appears ready to target political figures who want to regulate AI on a state level.
+* AI leaders are concerned that individual states could embrace policies that lead to what the industry would see as overregulation, and instead want uniform federally imposed guidelines.
+
+**Several states already have enacted** or are considering plans to regulate AI.
+
+* California — home to Silicon Valley — has passed several bills regulating AI development, for example.
+
+**Build American AI** will spend eight figures on advertising between now and the spring, a person familiar with the plans told Axios.
+
+* It is not yet clear which states it will target with its ads.
+
+**What they're saying:** ""We will aggressively highlight the opportunities AI creates for workers and communities, and we will expose and challenge the misinformation being spread by ideological groups trying to undermine the  
+nation's ability to lead,"" Leading the Future co-heads Zac Moffatt and Josh Vlasto told Axios."
+singularity,Trashing LLMs for being inaccurate while testing bottom-tier models,Sarithis,21,21,2025-11-02 13:41:52,https://www.reddit.com/r/singularity/comments/1omhkjd/trashing_llms_for_being_inaccurate_while_testing/,"Sorry for the rant, but I've been getting increasingly annoyed by people who see a few generated posts on Reddit and confidently conclude that ""AI is just a hallucinating pile of garbage"". The most common take is that it can't be trusted for doing research.
+
+Maybe I'm biased, but I'd REALLY like to see this challenge: an average redditor doing ""research"" on a topic before posting, versus someone using GPT-5 Pro (the 200$ tier). Sure, I'll admit that most people just copy-paste whatever ChatGPT Instant spits out, which is often wrong - fair criticism. But for goodness sake, this is like visiting a town where everyone drives a Multipla and concluding ""cars are ugly"".
+
+You can't judge the entire landscape by the worst, most accessible model version that people lazily use. The capability gap is enormous. So here's my question: if you share my opinion, what's your way of interacting with these people? Do you bother with providing explanations? Is it even worth it in your experience? Or, if you don't agree with my take, I'd love to know why! After all, I might be wrong."
+singularity,Vercel trained an AI agent on its best salesperson. Then it cut the 10-person team down to 1.,SharpCartographer831,56,6,2025-11-02 10:56:31,https://archive.is/cXpTe,
+singularity,Can AI know what it's thinking?,smealdor,145,68,2025-11-02 10:49:53,https://www.reddit.com/gallery/1ome9zi,"OK, this one is crazy. This isn't just pattern matching anymore.
+
+New Anthropic research shows Claude can sometimes detect its own thoughts.
+
+The experiment: they inject a concept (like ""dust"" or ""bread"") into the model's neural activity, then ask if it notices anything unusual.
+20% of the time, Claude correctly identifies what was injected, before that concept affects what it writes.
+
+Research shows that the model checks its own prior ""intentions"" (its internal neural patterns) to decide whether an output was deliberate.
+
+We're building systems that are starting to observe themselves. Unreliable and limited, but it's happening.
+
+Full Paper: https://transformer-circuits.pub/2025/introspection/index.html
+
+What are your thoughts on this?"
+singularity,Ilya Sutskever's Deposition on the Firing of Sam Altman and related events,Valuable-Village1669,88,19,2025-11-02 05:42:29,https://storage.courtlistener.com/recap/gov.uscourts.cand.433688/gov.uscourts.cand.433688.340.1.pdf,"This was honestly the most entertaining and gripping piece of court media I've ever read. Even the attorneys were going at each other, not to mention the thoughts of Ilya Sutskever himself, which were interesting. Much of the transcript was removed, but what is still there adds a lot of shading and texture to what is public about the incident."
+singularity,"""AI researchers ’embodied’ an LLM into a robot – and it started channeling Robin Williams""",AngleAccomplished865,36,8,2025-11-02 02:40:08,https://www.reddit.com/r/singularity/comments/1om6a6o/ai_researchers_embodied_an_llm_into_a_robot_and/," This has to be the funniest thing I've read today: [https://techcrunch.com/2025/11/01/ai-researchers-embodied-an-llm-into-a-robot-and-it-started-channeling-robin-williams/](https://techcrunch.com/2025/11/01/ai-researchers-embodied-an-llm-into-a-robot-and-it-started-channeling-robin-williams/)
+
+""""Aware that its power was dwindling and unable to dock itself to recharge, the robot began to mutter to itself a series of mounting hysterical comments. The researchers “found pages and pages of exaggerated language as it was trying to figure out what it self coined, its ‘EXISTENTIAL CRISIS’” in its interior logs...
+
+It also started rhyming lyrics to the tune of “Memory” from CATS"""
+singularity,"If singularity is achieved, the world culture will be fun, vibrant atmosphere!",mightythunderman,20,55,2025-11-02 00:20:02,https://www.reddit.com/r/singularity/comments/1om3g5f/if_singularity_is_achieved_the_world_culture_will/,"I think there will be a rich and vibrant culture if things are done right. The creative folks will be able to finally do fun activities , think / philosophize / the uber ""responsibility"" types , will absorb it all and allow the ""creatives"" to make things fun.
+
+Just think about this, when we lack responsibility, we immediately look for fun, even if you are not technically ""interested"" in doing or learning about or talking about things.
+
+EDIT : I hope wars of the world are solved by the lessening of suffering in the world as well."
+singularity,How far are we from making every fatal disease such as Glioblastoma 100% curable?,TechnicianAmazing472,40,38,2025-11-02 00:10:41,https://www.reddit.com/r/singularity/comments/1om38xd/how_far_are_we_from_making_every_fatal_disease/,"Just a general question. Everyone is very hyped for AGI and I was deeply thinking how far can AGI take us in the medical field, will it make us immune to disease by injection?
+
+Grok told me that   
+""**70% chance** that **90% of cancer deaths are preventable within 15 years** of AGI""
+
+"
+ArtificialInteligence,"Will AI ever be as curious as humans, or will it remain flat and mechanical?🤔",Low_Wear_6406,2,6,2025-11-02 14:45:19,https://www.reddit.com/r/ArtificialInteligence/comments/1omj3fd/will_ai_ever_be_as_curious_as_humans_or_will_it/,"Will AI ever be as curious as humans, or will it remain flat and mechanical?🤔 This video raises some interesting questions.i think we will know in 2026 right?. Full video link 
+https://youtu.be/F4vNd9OsuRA?si=Zkd1A2wxHq7FrS2Y"
+ArtificialInteligence,What do you think will happen by 2030?,Adventurous-Leg3336,3,10,2025-11-02 14:11:46,https://www.reddit.com/r/ArtificialInteligence/comments/1omi9mq/what_do_you_think_will_happen_by_2030/,"I keep on hearing “project 2030” for soooo many things, for religious cities, for technology projects, for this, for that. What do you think will happen by then? Mass digital ID? AI steals our jobs and mass starvation and homelessness begins? Thoughts?
+WW3?"
+ArtificialInteligence,"AI research: LLMs ace research design & participant recruitment, but fail at execution",ExplorAI,1,2,2025-11-02 14:09:52,https://www.reddit.com/r/ArtificialInteligence/comments/1omi7vq/ai_research_llms_ace_research_design_participant/,"They gave 6 LLMs a computer, an internet connection, and a groupchat, and then asked them to run a human subjects study. The AIs decided to explore human trust in AI recommendations, but then drafted an experimental design requiring them to have bodies and labs and money. When prompted them to downscale their ambitions, they produced a 9-question survey with baffling items about how people feel about the last digit of their birth year. That said, they did recruit 39 participants through email and Twitter and even tried reaching out to Yoshua Bengio. You can watch the whole thing like a reality show [here](https://theaidigest.org/village?day=160&time=1757350920560) or read the write up [here](https://theaidigest.org/village/blog/research-robots).
+
+  
+I think it's interesting to see how far AI has come and where it still gets stuck. It's probably fair to say it's only a few months or years before AI advances all of science, but we are definitely not there yet."
+ArtificialInteligence,"Is the intelligence of AI a kind of self-fulfilling prophecy, from the user's point of view?",Acceptable-Job7049,1,10,2025-11-02 13:43:23,https://www.reddit.com/r/ArtificialInteligence/comments/1omhlsd/is_the_intelligence_of_ai_a_kind_of/,"Interaction with AI is a two-way kind of thing.  Half of it comes from the user.
+
+When a user believes the AI is just a dumb machine that doesn't truly think or understand, then this user doesn't make much effort to ask a good question or write a clear prompt.  And this user gets back either a misunderstanding or some short, dumb reply.
+
+But when another user believes the AI is truly thinking and understanding, then this user puts in a lot of thought into his or her questions and prompts and provides a lot of background information in his or her interactions with AI.  And this user gets an intelligent reply.
+
+It's sort of garbage in, garbage out.  And intelligence in, intelligence out."
+ArtificialInteligence,"AI hype is excessive, but its productivity gains are real",R2_SWE2,13,49,2025-11-02 13:21:46,https://www.reddit.com/r/ArtificialInteligence/comments/1omh4fh/ai_hype_is_excessive_but_its_productivity_gains/,"I wrote up [an ""essay"" for myself](https://www.pcloadletter.dev/blog/ai-hype-and-productivity/) as I reflected on my journey to using AI tooling in my day job after having been a skeptic:
+
+I'm kind of writing this to ""past"" me, who I assume is ""current"" you for a number of folks out there. For the rest of you, this might just sound like ramblings of an old fogey super late to the party.
+
+Yes, AI is over-hyped. LLMs will not solve every problem under the sun but, like with any hot new tech, companies are going to say it will solve every problem out there, especially problems in the domain space of the company.
+
+Startups who used to be ""uber for farmers"" are now ""AI-powered uber for farmers."" You can't get away from it. It's exhausting.
+
+I let the hype exhaustion get the best of me for a while and eschewed the tech entirely.
+
+Well, I was wrong to do so. This became clear when my company bought Cursor licenses for all software developers in the company and strongly encouraged us to use it. I reluctantly started experimenting.
+
+The first thing I noticed is that LLM-powered autocomplete was wildly accurate. It seemed like it ""knew"" what I wanted to do next at every turn. Due to my discomfort with AI, I just stuck with autocomplete for a while. And, honestly, if I stuck with just using autocomplete it would *still* have been a massive level up.
+
+I remember having a few false starts with the agent panel in Cursor. I felt totally out of control when it was making changes to all sorts of files when I asked it a simple question. I have since figured out how to ask more directed questions, provide constraints, and supply markdown files in the codebase with general instructions.
+
+I now find the agent panel really helpful. I use it to help understand parts of a codebase, scaffold entirely new services or unit tests, and track down bugs.
+
+As a former skeptic, I am a wildly more productive developer with AI tooling. I let my aversion to the hype train cause me to miss out on those productivity gains for too long. I hope you don't make the same mistake.
+
+Edit:
+
+It is interesting to me that people accuse me of AI-generated writing and then, when I ask them to prove it, they see it's 100% human-generated and then say, ""Well these AI-checkers are unreliable.""
+
+I wrote the piece. You can disagree with it all you want, but accusing it of being AI-generated is just a lazy way to dismiss something you don't agree with.
+
+Edit 2:
+
+I see a lot of people conflating whether LLMs offer productivity gains with whether this is good for society. That concern is completely fair - but entirely distinct. I ask that in these discussions, you be forthright: are you really saying LLMs don't offer productivity gains or is your argument clouded by job security fears?"
+ArtificialInteligence,Are all AI agents made by big corporations?,lIIIIIIIIIIIIIlIIII,1,10,2025-11-02 11:42:22,https://www.reddit.com/r/ArtificialInteligence/comments/1omf5ap/are_all_ai_agents_made_by_big_corporations/,"I was looking into making a AI agent for a school project when I came across this account [https://x.com/zionaicoin](https://x.com/zionaicoin)
+
+I noticed they were posting and seen a post by Palantir saying this was their creation. How would someone go about making a AI agent. Is it only for big corporation?? "
+ArtificialInteligence,Can AI think? Or is it just pattern matching?,Acceptable-Job7049,0,39,2025-11-02 11:21:29,https://www.reddit.com/r/ArtificialInteligence/comments/1omeslk/can_ai_think_or_is_it_just_pattern_matching/,"Some people have claimed that only biological brains can think.  AI isn't really thinking.  It's just pattern matching.
+
+But from my own interaction with AI, this idea that AI can't think looks to me like obviously false 
+
+Not only is AI thinking, but it's thinking much better and more effectively than most humans I've interacted with. 
+
+Some recent evidence confirms my view of it.  What AI is doing is thinking in every sense of rhis word.
+
+Here are a couple of articles abouit: 
+
+https://venturebeat.com/ai/large-reasoning-models-almost-certainly-can-think
+
+https://www.quantamagazine.org/in-a-first-ai-models-analyze-language-as-well-as-a-human-expert-20251031/"
+ArtificialInteligence,"AI industry-backed ""dark money"" lobbying group to spend millions pushing regulation agenda",MetaKnowing,8,6,2025-11-02 10:10:14,https://www.reddit.com/r/ArtificialInteligence/comments/1omdnfw/ai_industrybacked_dark_money_lobbying_group_to/,"The [AI industry](https://archive.is/o/mwiX3/https://www.axios.com/technology/automation-and-ai) is preparing to launch a multimillion-dollar ad campaign through a new policy advocacy group, Axios has learned.
+
+**Why it matters:** The new group — Build American AI — is the latest sign that the flush-with-cash AI industry is preparing to spend massive sums promoting its agenda, namely its push for federal, not state, regulation.
+
+**Zoom out:** Build American AI is an offshoot of Leading the Future, a pro-AI super PAC.
+
+* While Leading the Future aims to invest tens of millions of dollars in 2026 midterm races, Build American AI will focus on issue-oriented ads promoting the industry's legislative agenda in Congress and the states.
+* Unlike the Leading the Future super PAC, Build American AI is a nonprofit group — meaning it's a ""dark money"" organization that's not required to disclose its donors.
+* Leading the Future has announced that it's raised $100 million, a figure that will make it a major player in the midterms.
+
+**Zoom in:** Organizers say Build American AI will emphasize the industry's will push for AI to be regulated on a federal level. The industry doesn't want different states to have different policies for regulation, a position that [mirrors](https://archive.is/o/mwiX3/https://www.axios.com/2025/07/24/trumps-ai-action-plan-dei) President Trump's.
+
+* The new group appears ready to target political figures who want to regulate AI on a state level.
+* AI leaders are concerned that individual states could embrace policies that lead to what the industry would see as over-regulation, and instead want to uniform federally imposed guidelines.
+
+**Several states already have enacted** or are considering plans to regulate AI.
+
+* California — home to Silicon Valley — has passed several bills regulating AI development, for example.
+
+**Build American AI** will spend eight figures on advertising between now and the spring, a person familiar with the plans told Axios.
+
+* It is not yet clear which states it will target with its ads.
+*   [https://www.axios.com/2025/10/29/ai-new-advocacy-group-dark-money](https://www.axios.com/2025/10/29/ai-new-advocacy-group-dark-money)"
+ArtificialInteligence,Just a reminder,muzamilsa,13,11,2025-11-02 09:19:07,https://www.reddit.com/r/ArtificialInteligence/comments/1omcuzn/just_a_reminder/,"Don't let your mind believe that AI is smarter than you, if you do, you loose your innate capability of being smarter, and keep going to ask personal questions to be resolved by it, instead of reflecting on it.. Your brain is n number of times exponentially multiplied powerful than any human created intelligence, it's just that you don't believe in it 🤡."
+ArtificialInteligence,Using Vapi AI to launch an AI automation agency — anyone doing this successfully?,LongjumpingDirt5366,1,6,2025-11-02 07:13:30,https://www.reddit.com/r/ArtificialInteligence/comments/1omaz8l/using_vapi_ai_to_launch_an_ai_automation_agency/,"I keep seeing people say they’re building AI voice agent agencies.
+
+Like does this model really work, or is it just hype?  
+It feels like a big opportunity but also “too easy” on the surface, so I’d love real experiences — wins, fails, advice.Would love to hear real experiences from people who tried it — good or bad."
+ArtificialInteligence,A Critical Defense of Human Authorship in AI-Generated Music,BradizbakeD,0,5,2025-11-02 06:44:37,https://www.reddit.com/r/ArtificialInteligence/comments/1omajik/a_critical_defense_of_human_authorship_in/,"The argument that AI music is solely the product of a short, uncreative prompt is a naive, convenient oversimplification that fails to recognize the creative labor involved.
+
+A. The Prompt as an Aesthetic Blueprint
+
+The prompt is not a neutral instruction; it is a detailed, original articulation of a soundscape, an aesthetic blueprint, and a set of structural limitations that the human creator wishes to realize sonically. This act of creative prompting, coupled with subsequent actions, aligns perfectly with the law's minimum threshold for creativity:
+
+ * The Supreme Court in Feist Publications, Inc. v. Rural Tel. Serv. Co. (1991), established that a work need only possess an ""extremely low"" threshold of originality—a ""modicum of creativity"" or a ""creative spark.""
+
+B. The Iterative Process
+
+The process of creation is not solely the prompt; it is an iterative cycle that satisfies the U.S. Copyright Office’s acknowledgment that protection is available where a human ""selects or arranges AI-generated material in a sufficiently creative way"" or makes ""creative modifications.""
+
+ * Iterative Refinement: Manually refining successive AI generations to home in on the specific sonic, emotional, or quality goal (the selection of material).
+
+ * Physical Manipulation: Subjecting the audio to external software (DAWs) for mastering, remixing, editing, or trimming (the arrangement/modification of material).
+The human is responsible for the overall aesthetic, the specific expressive choices, and the final fixed form, thus satisfying the requirement for meaningful human authorship.
+
+II. AI Tools and the Illusion of ""Authenticity""
+
+The denial of authorship to AI-assisted creators is rooted in a flawed, romanticized view of ""authentic"" creation that ignores decades of music production history.
+
+A. AI as a Modern Instrument
+
+The notion that using AI is somehow less ""authentic"" than a traditional instrument is untenable. Modern music creation is already deeply reliant on advanced technology. AI is simply the latest tool—a sophisticated digital instrument. As Ben Camp, Associate Professor of Songwriting at Berklee, notes: ""The reason I'm able to navigate these things so quickly is because I know what I want... If you don't have the taste to discern what's working and what's not working, you're gonna lose out."" Major labels like Universal Music Group (UMG) themselves recognize this, entering a strategic alliance with Stability AI to develop professional tools ""powered by responsibly trained generative AI and built to support the creative process of artists.""
+
+B. The Auto-Tune Precedent
+
+The music industry has successfully commercialized technologies that once challenged ""authenticity,"" most notably Auto-Tune. Critics once claimed it diminished genuine talent, yet it became a creative instrument. If a top-charting song, sung by a famous artist, is subject to heavy Auto-Tune and a team of producers, mixers, and masterers who spend hours editing and manipulating the final track far beyond the original human performance, how is that final product more ""authentic"" or more singularly authored than a high-quality, AI-generated track meticulously crafted, selected, and manually mastered by a single user? Both tracks are the result of editing and manipulation by human decision-makers. The claim of ""authenticity"" is an arbitrary and hypocritical distinction.
+
+III. The Udio/UMG Debacle
+
+The recent agreement between Udio and Universal Music Group (UMG) provides a stark illustration of why clear, human-centric laws are urgently needed to prevent corporate enclosure.
+
+The events surrounding this deal perfectly expose the dangers of denying creator ownership:
+
+ * The Lawsuit & Settlement: UMG and Udio announced they had settled the copyright infringement litigation and would pivot to a ""licensed innovation"" model for a new platform, set to launch in 2026.
+
+ * The ""Walled Garden"" and User Outrage: Udio confirmed that existing user creations would be controlled within a ""walled garden,"" a restricted environment protected by fingerprinting and filtering. This move ignited massive user backlash across social media, with creators complaining that the sudden loss of downloads stripped them of their democratic freedom and their right to access or commercially release music they had spent time and money creating.
+
+ This settlement represents a dark precedent: using the leverage of copyright litigation to retroactively seize control over user-created content and force that creative labor into a commercially controlled and licensed environment. This action validates the fear that denying copyright to the AI-assisted human creator simply makes their work vulnerable to a corporate land grab.
+
+IV. Expanding Legislative Protection
+
+The current federal legislative efforts—the NO FAKES Act and the COPIED Act—are critically incomplete. While necessary for the original artist, they fail to protect the rights of the AI-assisted human creator. Congress must adopt a Dual-Track Legislative Approach to ensure equity:
+
+Track 1: Fortifying the Rights of Source Artists (NO FAKES/COPIED)
+
+This track is about stopping the theft of identity and establishing clear control over data used for training.
+
+ * Federal Right of Publicity: The NO FAKES Act must establish a robust federal right of publicity over an individual's voice and visual likeness.
+
+ * Mandatory Training Data Disclosure: The COPIED Act must be expanded to require AI model developers to provide verifiable disclosure of all copyrighted works used to train their models.
+
+ * Opt-In/Opt-Out Framework: Artists must have a legal right to explicitly opt-out their catalog from being used for AI training, or define compensated terms for opt-in use.
+
+Track 2: Establishing Copyright for AI-Assisted Creators
+
+This track must ensure the human creator who utilizes the AI tool retains ownership and control over the expressive work they created, refined, and edited.
+
+ * Codification of Feist Standard for AI: An Amendment to the Copyright Act must explicitly state that a work created with AI assistance is eligible for copyright protection, provided the human creator demonstrates a ""modicum of creativity"" through Prompt Engineering, Selection and Arrangement of Outputs, or Creative Post-Processing/Editing.
+
+ * Non-Waiver of Creative Rights: A new provision must prohibit AI platform Terms of Service (TOS) from retroactively revoking user rights or claiming ownership of user-generated content that meets the Feist standard, especially after the content has been created and licensed for use.
+
+ * Clear ""Work Made for Hire"" Boundaries: A new provision must define the relationship such that the AI platform cannot automatically claim the work is a ""work made for hire"" without a clear, compensated agreement.
+
+Original Post:
+ https://www.reddit.com/r/udiomusic/s/gXhepD43sk"
+ArtificialInteligence,"Everyone’s hyped on AI, but 2026 feels like it’s gonna be the year people take back control.",DangerousFounder,0,34,2025-11-02 05:46:30,https://www.reddit.com/r/ArtificialInteligence/comments/1om9m1p/everyones_hyped_on_ai_but_2026_feels_like_its/,"Not tryna sound dramatic but AI hype’s kinda cooked already.
+People are tired of giving their data + time to tools they don’t even fully trust.
+
+Stuff that’s actually making money now?
+
+Little setups mixing logic + small bits of AI + automation
+
+Offline tools, no cloud nonsense
+
+Frameworks that make AI explain itself instead of acting like a mystery box
+
+boring looking Sheets/Notion builds that just… make cash quietly
+
+The hype train’s slowing down.
+Next winners will be the ones who design how AI gets used, not just “use AI” for the flex.
+
+AI was just the spark.
+Control’s where the real shift happens."
+ArtificialInteligence,"If we teach AI the wrong habits, don’t be surprised when it replaces us badly.",GamePractice,0,14,2025-11-02 05:17:16,https://www.reddit.com/r/ArtificialInteligence/comments/1om94ba/if_we_teach_ai_the_wrong_habits_dont_be_surprised/,"If you teach AI to be lazy, it will learn faster than you.
+If you teach it to think, to stretch, to imagine — it will help you build something extraordinary."
+ArtificialInteligence,I’ve noticed that many articles written by AI tools frequently use the em dash (—). What are some quick ways to identify if a piece of writing was generated by AI?,Curious_Suchit,0,16,2025-11-02 05:06:04,https://www.reddit.com/r/ArtificialInteligence/comments/1om8xb5/ive_noticed_that_many_articles_written_by_ai/,"Lately, I’ve noticed that many articles or posts that seem AI generated often use the em dash (—) quite a lot. It made me wonder, are there any quick or reliable ways to tell if a piece of writing was created by AI? What other common signs or writing patterns do you usually look for?"
+ArtificialInteligence,One-Minute Daily AI News 11/1/2025,Excellent-Target-847,4,2,2025-11-02 04:24:48,https://www.reddit.com/r/ArtificialInteligence/comments/1om86ii/oneminute_daily_ai_news_1112025/,"1. AI researchers ’embodied’ an LLM into a robot – and it started channeling Robin Williams.\[1\]
+2. ClairS-TO: a deep-learning method for long-read tumor-only somatic small variant calling.\[2\]
+3. Chinese Unleashing AI-Powered Robot Dinosaurs.\[3\]
+4. AI-driven automation triggers major workforce shift across corporate America.\[4\]
+
+Sources included at: [https://bushaicave.com/2025/11/01/one-minute-daily-ai-news-11-1-2025/](https://bushaicave.com/2025/11/01/one-minute-daily-ai-news-11-1-2025/)"
+ArtificialInteligence,"The true danger of the UMG-Udio model is its implication for the entire AI industry, moving the generative space from a landscape of open innovation to one controlled by legacy IP holders.",BradizbakeD,0,3,2025-11-02 04:12:48,https://www.reddit.com/r/ArtificialInteligence/comments/1om7yoe/the_true_danger_of_the_umgudio_model_is_its/,"The argument is that UMG is using its dominant position in the music rights market to dictate the terms of a new technology (AI), ultimately reducing competition and controlling the creative tools available to the public.
+
+UMG (and other major labels) sued Udio for mass copyright infringement, alleging the AI was trained on their copyrighted recordings without a license. This put Udio in an existential legal battle, facing massive damages.
+
+Instead of letting the case proceed to a verdict that would either validate fair use (a win for Udio/creators) or establish liability (a win for the labels), UMG used the threat of bankruptcy-by-litigation to force Udio to the negotiating table.
+
+The settlement effectively converts Udio from a disruptive, independent AI platform into a licensed partner, eliminating a major competitor in the unlicensed AI training space and simultaneously allowing UMG to control the resulting technology. This is seen as a way to acquire the technology without an explicit purchase, simply by applying crushing legal pressure. 
+
+By positioning this as the only legally sanctioned, compensated-for-training model, UMG sets a market precedent that effectively criminalizes other independent, non-licensed AI models, stifling competition and limiting choices for independent artists and developers.
+
+The overarching new direction is that the industry is shifting from a Legal Battle over copyrighted content to a Competition Battle over the algorithms and data pipelines that control all future creative production. UMG is successfully positioning itself not just as a music rights holder, but as a future AI platform gatekeeper.
+
+The UMG-Udio deal can potentially be challenged through both government enforcement and private litigation under key competition laws in the US and the EU.
+
+​United States:
+
+The Department of Justice (DOJ) & FTC
+
+​Relevant Law:  Section 2 of the Sherman Antitrust Act (Monopolization)
+
+​The complaint would allege that UMG is unlawfully maintaining or attempting to monopolize the ""Licensed Generative AI Music Training Data Market"" and the resulting ""AI Music Creation Platform Market."" The core violation is the leveraging of its massive copyright catalog monopoly to stifle emerging, unlicensed competitors like Udio.
+
+​European Union:
+
+The European Commission (EC)
+
+​Relevant Law: Article 102 of the Treaty on the Functioning of the European Union (TFEU) (Abuse of Dominance)
+
+​The EC would assess if UMG holds a dominant position in the EEA music market and if the Udio deal constitutes an ""abuse"" by foreclosing competition or exploiting consumers/creators.
+
+Original Post:
+
+https://www.reddit.com/r/udiomusic/s/NK7Ywdlq6Y"
+ArtificialInteligence,"The true danger of the UMG-Udio model is its implication for the entire AI industry, moving the generative space from a landscape of open innovation to one controlled by legacy IP holders.",BradizbakeD,0,1,2025-11-02 04:11:25,https://www.reddit.com/r/ArtificialInteligence/comments/1om7xql/the_true_danger_of_the_umgudio_model_is_its/,"The argument is that UMG is using its dominant position in the music rights market to dictate the terms of a new technology (AI), ultimately reducing competition and controlling the creative tools available to the public.
+
+UMG (and other major labels) sued Udio for mass copyright infringement, alleging the AI was trained on their copyrighted recordings without a license. This put Udio in an existential legal battle, facing massive damages.
+
+Instead of letting the case proceed to a verdict that would either validate fair use (a win for Udio/creators) or establish liability (a win for the labels), UMG used the threat of bankruptcy-by-litigation to force Udio to the negotiating table.
+
+The settlement effectively converts Udio from a disruptive, independent AI platform into a licensed partner, eliminating a major competitor in the unlicensed AI training space and simultaneously allowing UMG to control the resulting technology. This is seen as a way to acquire the technology without an explicit purchase, simply by applying crushing legal pressure. 
+
+By positioning this as the only legally sanctioned, compensated-for-training model, UMG sets a market precedent that effectively criminalizes other independent, non-licensed AI models, stifling competition and limiting choices for independent artists and developers.
+
+The overarching new direction is that the industry is shifting from a Legal Battle over copyrighted content to a Competition Battle over the algorithms and data pipelines that control all future creative production. UMG is successfully positioning itself not just as a music rights holder, but as a future AI platform gatekeeper.
+
+The UMG-Udio deal can potentially be challenged through both government enforcement and private litigation under key competition laws in the US and the EU.
+
+​United States:
+
+The Department of Justice (DOJ) & FTC
+
+​Relevant Law:  Section 2 of the Sherman Antitrust Act (Monopolization)
+
+​The complaint would allege that UMG is unlawfully maintaining or attempting to monopolize the ""Licensed Generative AI Music Training Data Market"" and the resulting ""AI Music Creation Platform Market."" The core violation is the leveraging of its massive copyright catalog monopoly to stifle emerging, unlicensed competitors like Udio.
+
+​European Union:
+
+The European Commission (EC)
+
+​Relevant Law: Article 102 of the Treaty on the Functioning of the European Union (TFEU) (Abuse of Dominance)
+
+​The EC would assess if UMG holds a dominant position in the EEA music market and if the Udio deal constitutes an ""abuse"" by foreclosing competition or exploiting consumers/creators.
+
+Original Post:
+
+https://www.reddit.com/r/udiomusic/s/NK7Ywdlq6Y"
+ArtificialInteligence,AI is just making stuff up on genealogy,EC_Stanton_1848,0,43,2025-11-02 01:53:13,https://www.reddit.com/r/ArtificialInteligence/comments/1om5cpp/ai_is_just_making_stuff_up_on_genealogy/,"I KNOW I am a Mayflower Descendant. I KNOW most of the names and dates off the top of my head (but not all of them) so I thought I'd use AI to fill in the gaps while I was horsing around with a model of my family tree.
+
+AI was just making stuff up. 
+
+Listing 'fathers' that would have been 75 years old (which means AI skipped a generation). I kept correcting it with what I do know, and it would say something to the effect of 'Oh, you're correct' and then spit out more garbage. 
+
+Virtually ALL of the data is publicly available (Social Security birth and death records, etc.). How could AI screw it up so much???  
+"
+ArtificialInteligence,Does everyone already know this?,Colorful_space,0,17,2025-11-02 01:04:50,https://www.reddit.com/r/ArtificialInteligence/comments/1om4dlh/does_everyone_already_know_this/,"Hello I was wondering if everyone already knows that ai only takes information off of the internet and what is most popular, and spits it back out in whatever way you want it to. 
+
+So if the majority of information online is wrong about something it will just say its right because its what the majority says. 
+
+I always thought ai actually had some sort of thought process it did to come up with its own information. Other than using it for technical things it seems that it just becomes a propaganda bot. 
+
+It can also just reply back to comfort you telling you whatever is nice and dumb. 
+
+Is ai ever going to actually think for itself. I guess that's not possible though. I thought everyone was freaking out because that was the case but I guess people are freaking out about an information bot. 
+
+It should be expected we have that by now with the technological advances we have. Honestly im surprised it took this long to come up with. It just seems like a big gimmick. "
+ArtificialInteligence,List of AI models released this month,Duarteeeeee,38,7,2025-11-02 00:14:16,https://www.reddit.com/r/ArtificialInteligence/comments/1om3bn0/list_of_ai_models_released_this_month/,"Hello everyone! I've been following the latest AI model releases and wanted to share a curated list of what's been released.
+
+Here's a timeline breakdown of some of the most interesting models released between October 1 and 31, 2025:
+
+**October 1:**
+
+* **LFM2-Audio-1.5B** (LFM): Real-time audio language model.
+* **Octave 2 (TTS)** (HumeAI): Expressive multilingual speech.
+* **Asta DataVoyager** (AllenAI): Data analysis agent.
+* **KaniTTS-370M** (Nineninesix): Fast and efficient TTS.
+
+**October 2:**
+
+* **Granite 4.0** (IBM): Enterprise-ready hybrid models.
+* **NeuTTS Air** (Neuphonic Speech): On-device voice cloning.
+
+**October 3:**
+
+* **S3 Agent** (Simular): Hybrid GUI code agent.
+* **Ming-UniAudio** and **Ming-UniAudio-Edit** (Ant Ling): Unified voice editing.
+* **Ming-UniVision** (Ant Ling): continuous visual tokenization.
+* **Ovi (TTV and ITV)** (Character AI x Yale University): Synchronized audio-video generation.
+* **CoDA-v0-Instruct** (Salesforce): Discrete delivery code template.
+* **GPT-5 Instant** (OpenAI): fast, default ChatGPT.
+
+**October 4:**
+
+* **Qwen3-VL-30B-A3B-Instruct & Thinking** (Alibaba): Advanced Vision Language Model.
+* **DecartXR** (Decart AI): Real-time MRI reskinning.
+
+**October 5:**
+
+* (No new models noted)
+
+**October 6:**
+
+* **Applications in ChatGPT** (OpenAI): Integration of applications in chat.
+* **GPT-5 Pro in API** (OpenAI): High reasoning API model.
+* **AgentKit (Agent Builder)** (OpenAI): Visual agent workflow.
+* **Sora 2 and Sora 2 Pro in the API** (OpenAI): Synchronized audio-video generation.
+* **gpt-realtime-mini** (OpenAI): Low latency speech synthesis (70% cheaper than larger models).
+* **gpt-image-1-mini** (OpenAI): Cheaper API image generation (90% cheaper than larger models).
+
+**October 7:**
+
+* **LFM2-8B-A1B** (Liquid AI): Effective MoE on device.
+* **Hunyuan-Vision-1.5-Thinking** (Tencent): Advanced multimodal reasoning.
+* **Using Gemini 2.5** (Google): Agentic UI automation.
+* **Imagine v0.9** (xAI): Audiovisual cinematic generation.
+* **TRM** (Samsung): Iterative reasoning solver.
+* **Paris** (Bagel): Trained decentralized open weight diffusion text-image model.
+* **Boba Anime 1.4** (Boba AI Labs): text-anime video.
+* **StreamDiffusionV2** (Chenfeng Team): Real-time video streaming model.
+* **CodeMender** (published article only): AI agent that automatically finds and fixes software vulnerabilities.
+
+**October 8:**
+
+* **RovoDev (AI Agent)** (Atlassian): AI agent.
+* **Jamba 3B** (AI21): language model.
+* **Ling 1T** (Ant Ling): reasoning model with billions of parameters.
+* **Mimix** (Mohammed bin Zayed University of Artificial Intelligence): character mixing for video generation (published article only).
+
+**October 9:**
+
+* **UserLM-8b** (Microsoft): Simulates conversational users.
+* **bu 1.0 (Browser Agent)** (Browser Usage): Fast DOM-based agent.
+* **RND1** (Radical Numerics): Broadcast language model.
+
+**October 10:**
+
+* **KAT-Dev-72B-Exp** (Kwaipilot): Reinforcement learning code agent.
+* **Exa 2.0 (Exa Fast and Exa Deep)** (Exa): Agent-focused search engine.
+* **Gaga-1** (Gaga AI): character-based video generator.
+
+**October 11:**
+
+* (No new models noted)
+
+**October 12:**
+
+* **DreamOmni2** (ByteDance): multimodal instruction editing.
+* **DecartStream** (DecartAI): Real-time video restyling.
+
+**October 13:**
+
+* **StreamingVLM** (MIT Han Lab): real-time understanding of infinite video streams.
+* **Ring-1T** (Ant Ling): Reasoning model with billions of parameters.
+* **MAI-Image-1** (Microsoft): Internal photorealistic generator.
+
+**October 14:**
+
+* **Qwen 3 VL 4B and 8B Instruct and Thinking** (Alibaba): Advanced vision language models.
+* **Riverflow 1** (Sourceful): Image editing template.
+
+**October 15:**
+
+* **Claude 4.5 Haiku** (Anthropic): Fast and economical agent.
+* **Veo 3.1 and Veo 3.1 Fast** (Google): Audio-video generation engine.
+
+**October 16:**
+
+* **SWE-grep and SWE-grep-mini** (Windsurf): Fast code retrieval.
+* **Manus 1.5** (Manus AI): Single-prompt app builder.
+* **PaddleOCR-VL (0.9B)** (Baidu): lightweight document analysis.
+* **MobileLLM-Pro** (Meta): Long context mobile LLM.
+* **FlashWorld** (Tencent): Single-frame instant 3D.
+* **RTFM** (WorldLabs): Generative world in real time.
+* **Surfer 2** (RunnerH): Cross-platform UI agent.
+
+**October 17:**
+
+* **LLaDA2.0-flash-preview** (Ant Ling): Efficient Diffusion LLM.
+
+**October 18:**
+
+* **Odyssey** (AnthrogenBio): Protein language model.
+
+**October 19:**
+
+* (No new models noted)
+
+**October 20:**
+
+* **Deepseek OCR** ​​​​(DeepseekAI): Visual context compression.
+* **Crunched** (Excel AI Agent): Standalone spreadsheet modeling.
+* **Fish Audio S1** (FishAudio): expressive voice cloning.
+* **Krea Realtime** (Krea): interactive autoregressive video (open source).
+
+**October 21:**
+
+* **Qwen3-VL-2B and Qwen3-VL-32B** (Alibaba): Scalable dense VLMs.
+* **Atlas** (OpenAI): agentic web browser.
+* **Suno V4.5 All** (Suno AI): High quality free music.
+* **BADAS 1.0** (Nexar): Egocentric collision prediction model.
+
+**October 22:**
+
+* **Genspark AI Developer 2.0** (Genspark AI): One-prompt app builder.
+* **LFM2-VL-3B** (Liquid AI): Edge vision language model.
+* **HunyuanWorld-1.1** (Tencent): Video to 3D world.
+* **PokeeResearch-7B** (Pokee AI): RLAIF deep research agent.
+* **olmOCR-2-7B-1025** (Allen AI): High-throughput document OCR.
+* **Riverflow 1 Pro** (Sourceful on Runware): Advanced Design Edition.
+
+**October 23:**
+
+* **KAT-Coder-Pro V1 and KAT-Coder-Air V1** (Kwaipilot): Parallel tool call agents.
+* **LTX 2** (Lightricks): 4K synchronized audio-video.
+* **Argil Atom** (Argil AI): AI-powered video avatars.
+* **Magnific Precision V2** (Magnific AI): High-fidelity image scaling.
+* **LightOnOCR-1B** (LightOn): Fast and adjustable OCR.
+* **HoloCine** (Ant Group X HKUST X ZJU X CUHK X NTU): video generation.
+
+**October 24:**
+
+* **Tahoe-x1** (Prime-RL): Open source 3B single-cell foundation model.
+* **P1** (Prime-RL): Qwen3-based model proficient in Physics Olympiad.
+* **Seedance 1.0 pro fast** (ByteDance): faster movie generation.
+
+**October 25:**
+
+* **LongCat-Video** (Meituan): generation of long videos.
+* **Seed 3D 1.0** (ByteDance Seed): 3D assets ready for simulation.
+
+**October 26:**
+
+* (No new models noted)
+
+**October 27:**
+
+* **Minimax M2** (Hailuo AI): Profitable Agent LLM.
+* **Odyssey 2**: (probably an update to Odyssey)
+* **Ming-flash-omni-preview** (Ant Ling): Sparse omnimodal MoE.
+* **LLaDA2.0-mini-preview** (Ant Ling): Small-release LLM.
+* **Riverflow 1.1** (Runware): Image editing model.
+
+**October 28:**
+
+* **Hailuo 2.3 and Hailuo 2.3 Fast** (Minimax): cinematic animated video.
+* **LFM2-ColBERT-350M** (Liquid AI): One model to fit them all.
+* **Pomelli** (Google): AI marketing tool.
+* **Granite 4.0 Nano (1B and 350M)** (IBM): Effective on-device LLM.
+* **FlowithOS** (Flowith): Visual agent operating system.
+* **ViMax** (HKUDS): Agentic video production pipeline.
+* **Sonic-3** (Cartesia): Low-latency expressive TTS.
+* **Nemotron Nano v2 VL** (NVIDIA): hybrid document-video VLM.
+
+**October 29:**
+
+* **Minimax Speech 2.6** (Minimax): Real-time voice agent.
+* **Dial** (Cursor): fast agent coding.
+* **gpt-oss-safeguard** (OpenAI): Open weight security reasoner.
+* **Frames to Video** (Morphic): keyframe animation in video.
+* **HomeFig**: sketch to be rendered in 2 minutes.
+* **Luna (STS)** (Pixa AI): Emotional speech synthesis.
+* **Fibo** (Bria AI): open source text-image model.
+* **SWE-1.5** (Cognition AI): Coding agent model.
+* **kani-tts-400m-en** (Nineninesix): Light English TTS.
+* **DrFonts V1.0** (DrFonts): AI font generator.
+* **CapRL-3B** (InternLM): Dense image captioner.
+* **Tongyi DeepResearch model** (Alibaba): open source deep search agent.
+* **Ouros 2.6B and Ouros 2.6B Thinking** (ByteDance): language models.
+* **Marin 32B Base** (mantis): beats Olmo 2 32B
+
+**October 30:**
+
+* **Emu3.5** (BAAI): Native multimodal world model.
+* **Kimi-Linear-48B-A3B** (Moonshot AI): Long-context linear attention.
+* **Aardvark** (OpenAI): Agent security researcher (first private beta).
+* **MiniMax Music 2.0** (Minimax): generation of text to music.
+* **RWKV-7 G0a3 7.2B** (BlinkDL): Multilingual RNN LLM.
+* **UI-Ins-32B and UI-Ins-7B** (Alibaba): GUI grounding agents.
+* **Higgsfield Face Swap** (Higgsfield AI): One-click character consistency.
+
+**October 31:**
+
+* **Kimi CLI** (Moonshot AI): Shell-integrated coding agent.
+* **ODRA** (Opera): Deep Research Agent (waiting list for private beta).
+* **Kairos** (KairosTerminal): prediction market trading terminal (waiting list for private beta)."
+ArtificialInteligence,Corporations & Artificial Intelligence,MicrosoftISundevelop,0,17,2025-11-02 00:04:37,https://www.reddit.com/r/ArtificialInteligence/comments/1om34d8/corporations_artificial_intelligence/,"AI (artificial intelligence) must be outlawed on a corporate level for the sustainability of creative jobs. Don't confuse my words, AI is a very useful tool, of which can expedite society into a utopia, but people who have shed years of their lives onto mastering certain tasks may not hold the same compassion for AI. To the average person, AI is a tool that can allow them to completely erase mundane or cumbersome tasks on a regular level, but corporations view AI as a tool to cut costs---not as in budgeting or investing in good financial decisions, but rather as in firing their employees who are the actual cornerstones of marketing. AI may not be able to post an advertisement on YouTube or X, but it damn-well is capable of creating the videos, text, and artwork that are used in that advertisement. This idea that AI can erase 99% of the effort that goes into creating material also ties into my point, that the use of AI in the corporate space will create unfair leverages for the people that have been apprenticed in manual labor, as opposed to the ones that have invested in honing their skills as artists. All of the people that have sacrificed other opportunities, oblivious to AI, are now the ones being affected the most. AI is replacing the high-skill and high-paying jobs that base the economy and industry of every Western country, and something must be done to combat that. Federally, the use of AI must be solely limited to colloquial purposes."
+compsci,very difficult to solve digital design problems,Ced3j,2,0,2025-11-02 14:48:08,/r/ECE/comments/1omj3rf/very_difficult_to_solve_digital_design_problems/,
+compsci,"A lockless-ish threadpool and task scheduler system ive been working on. first semi serious project. BSD licensed and only uses windows.h, std C++ and moodycamels concurrentqueue",Slight-Abroad8939,2,0,2025-11-02 13:50:56,https://github.com/jay403894-bit/T_Threads,"also has work stealing local and local strict affinity queues so you have options in how to use the pool 
+
+im not really a student i took up to data structures and algorithms 1 but wasnt able to go on, still this has been my hobby for a long time.
+
+its the first time ive written something like this. but i thought it was a pretty good project and might be interesting open source code to people interested in concurrency"
+compsci,Theoretical Computer Science Master's in Europe,rourakion,3,6,2025-11-02 10:55:24,https://www.reddit.com/r/compsci/comments/1omed73/theoretical_computer_science_masters_in_europe/,"Hello! Recently I completed my Bachelor's in Informatics, focused on Theoretical Computer Science. Now, I am searching for Master's programs to start next year, and I thought I should also ask here if someone has something to suggest.
+
+I am mostly interested in Algorithms, Logic, Game Theory, Decision Theory, Graph Theory and Probability. In the future I see myself being a researcher.
+
+I am aware of masters at TU Wien and the University of Amsterdam, but all I can find seems to be more centered on logic and I would like to find something that combines it with algorithms, so maybe I am not looking in the right place. What other options (in Europe) could be good for me to look into?"
+compsci,Inverse shortest paths in directed acyclic graphs,musescore1983,1,0,2025-11-02 03:04:32,https://www.reddit.com/r/compsci/comments/1om6qv7/inverse_shortest_paths_in_directed_acyclic_graphs/,"Dear members of r/compsci
+
+Please find attached an interactive demo about a method to find inverse shortest paths in a given directed acylic graph:
+
+The problem was motivated by Burton and Toint 1992 and in short, it is about finding costs on a given graph, such that the given, user specifig paths become shortest paths:
+
+We solve a similar problem by observing that in a given DAG, if the graph is embedded in the 2-d plane, then if there exists a line which respects the topologica sorting, then we might project the nodes onto this line and take the Euclidean distances on this line as the new costs. In a later step (which is not shown on the interactive demo) we migt want to recompute these costs so as to come close to given costs (in L2 norm) while maintaining the shortest path property on the chosen paths. What do you think? Any thoughts?
+
+[Interactive demo](https://www.orges-leka.de/inverse_shortest_paths_directed_acyclic_graphs.html)
+
+[Presentation](https://www.orges-leka.de/presentation.pdf)
+
+[Paper](https://www.orges-leka.de/inverse_shortest_paths_in_directed_acyclic_graphs.pdf) "
